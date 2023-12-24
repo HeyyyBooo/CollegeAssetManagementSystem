@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maintenance Menu</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Copperplate Gothic Light;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            background: url('background.jpg') center/cover fixed no-repeat;
+            height: 100vh;
+            filter: blur(0px);
+        }
+        h1 {
+            margin-top: 20px;
+            background-color: rgba(255, 255, 255, 0.285); /* White background with some transparency */
+            padding: 8px; /* Padding for the white background */
+            border-radius: 4px; 
+            color: #120054;
+            z-index: 1;
+        }
+        .menu-options {
+            margin-top: 20px;
+            background-color: rgba(255, 255, 255, 0.285); /* White background with some transparency */
+            padding: 10px; /* Padding for the white background */
+            border-radius: 8px; /* Optional: Adds rounded corners for a better look */
+        }
+        .option {
+            margin: 10px;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            z-index: 1;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        .subbutton{
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            z-index: 1;
+            background-color: #663cff77;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        .footer {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 12px;
+        }
+        .header-buttons {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            display: flex;
+            gap: 10px;
+        }
+        .header-buttons a {
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #663cff77;
+        }
+    </style>
+</head>
+<body>
+    <div class="header-buttons">
+        <a href="index.html">Home</a>
+        <a href="maintenancemenu.html">Maintenance Staff</a>
+        <a href="adminmenu.html">College Admin</a>
+        <a href="aboutus.html">About Us</a>
+    </div>
+    <img class="logo" src="IIIT_logo_transparent.gif" alt="College Logo" width="100" height="100">
+
+    <h1>Maintenance Menu</h1>
+
+    <div class="menu-options">
+        <div class="option">
+            <button class="button" onclick="window.location.href='staff1.php'">Maintenance Log</button>
+        </div>
+        <div class="option">
+            <button class="button" onclick="window.location.href='staff2.php'">Update Maintenance Request</button>
+        </div>
+        <div class="option">
+            <button class="button" onclick="window.location.href='staff3.php'">View Pending Maintenance Request Status</button>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; 2023 IIIT Allahabad. All rights reserved.
+    </div>
+</body>
+</html>
