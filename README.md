@@ -28,5 +28,4 @@ Step 11: Now the website is ready to use.
 - Uttkarsh Malviya - [@Menma420](https://github.com/Menma420)
 - Nishant Narjinary - [heyyybooo](https://github.com/heyyybooo)
 
-If you have any questions or suggestions, feel free to contact us at [uttkarshmalviya90@gmail.com](mailto:uttkarshmalviya90@gmail.com).
 
