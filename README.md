@@ -22,3 +22,11 @@ Step 9: Now open htdocs folder and extract miniproject here.
 Step 10: Now open a new tab and type "localhost/miniproject/index.html".
 
 Step 11: Now the website is ready to use.
+## Team Members
+
+- Yagesh Mishra - [@Yagesh001](https://github.com/Yagesh001)
+- Uttkarsh Malviya - [@Menma420](https://github.com/Menma420)
+- Nishant Narjinary - [heyyybooo](https://github.com/heyyybooo)
+
+If you have any questions or suggestions, feel free to contact us at [uttkarshmalviya90@gmail.com](mailto:uttkarshmalviya90@gmail.com).
+
